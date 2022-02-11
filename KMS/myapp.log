@@ -1,0 +1,214 @@
+2022-02-11 13:52:00.914  INFO 50241 --- [main] com.kms.KMSTest                          : Starting KMSTest using Java 11.0.11 on Idans-MacBook-Pro.local with PID 50241 (started by idanazulay in /Users/idanazulay/Downloads/KMSTask-main/workspace-spring-tool-suite-4-4.13.0.RELEASE/KMS)
+2022-02-11 13:52:00.915  INFO 50241 --- [main] com.kms.KMSTest                          : No active profile set, falling back to default profiles: default
+2022-02-11 13:52:02.200  INFO 50241 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-11 13:52:02.365  INFO 50241 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interfaces.
+2022-02-11 13:52:03.268  INFO 50241 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-11 13:52:03.466  INFO 50241 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-11 13:52:03.640  INFO 50241 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 13:52:03.692  INFO 50241 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 13:52:03.857  INFO 50241 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 13:52:03.971  INFO 50241 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-11 13:52:04.637  INFO 50241 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 13:52:04.646  INFO 50241 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 13:52:05.682  WARN 50241 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-11 13:52:06.468  INFO 50241 --- [main] com.kms.KMSTest                          : Started KMSTest in 6.202 seconds (JVM running for 8.92)
+2022-02-11 13:52:06.685  INFO 50241 --- [main] KMSLogger                                : + USs 1000 2
+2022-02-11 13:52:06.686  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:06.686  INFO 50241 --- [main] KMSLogger                                : + dSS 1000 2
+2022-02-11 13:52:06.686  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:06.687  INFO 50241 --- [main] KMSLogger                                : + sdA 1000 2
+2022-02-11 13:52:06.687  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:06.687  INFO 50241 --- [main] KMSLogger                                : + asd 1000 2
+2022-02-11 13:52:06.687  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:06.687  INFO 50241 --- [main] KMSLogger                                : + USDS 5 2
+2022-02-11 13:52:06.687  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:06.951  INFO 50241 --- [main] KMSLogger                                : + USD 50 13
+2022-02-11 13:52:06.952  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:06.994  INFO 50241 --- [main] KMSLogger                                : + USD 500 7
+2022-02-11 13:52:06.994  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.000  INFO 50241 --- [main] KMSLogger                                : + USD 5000 2
+2022-02-11 13:52:07.000  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.009  INFO 50241 --- [main] KMSLogger                                : + USD 1 2
+2022-02-11 13:52:07.012  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.016  INFO 50241 --- [main] KMSLogger                                : + CHF 10 5
+2022-02-11 13:52:07.017  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.020  INFO 50241 --- [main] KMSLogger                                : + FFG 100 6
+2022-02-11 13:52:07.020  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.027  INFO 50241 --- [main] KMSLogger                                : + USD 1000 2
+2022-02-11 13:52:07.028  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.045  INFO 50241 --- [main] KMSLogger                                : USD 1 2 
+2022-02-11 13:52:07.046  INFO 50241 --- [main] KMSLogger                                : USD 1000 2 
+2022-02-11 13:52:07.046  INFO 50241 --- [main] KMSLogger                                : USD 50 13 
+2022-02-11 13:52:07.046  INFO 50241 --- [main] KMSLogger                                : USD 500 7 
+2022-02-11 13:52:07.046  INFO 50241 --- [main] KMSLogger                                : USD 5000 2 
+2022-02-11 13:52:07.046  INFO 50241 --- [main] KMSLogger                                : CHF 10 5 
+2022-02-11 13:52:07.046  INFO 50241 --- [main] KMSLogger                                : FFG 100 6 
+2022-02-11 13:52:07.046  INFO 50241 --- [main] KMSLogger                                : OK 
+2022-02-11 13:52:07.049  INFO 50241 --- [main] KMSLogger                                : - USD 10551
+2022-02-11 13:52:07.053  INFO 50241 --- [main] KMSLogger                                : 5000 2
+2022-02-11 13:52:07.059  INFO 50241 --- [main] KMSLogger                                : 500 1
+2022-02-11 13:52:07.065  INFO 50241 --- [main] KMSLogger                                : 50 1
+2022-02-11 13:52:07.070  INFO 50241 --- [main] KMSLogger                                : 1 1
+2022-02-11 13:52:07.071  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.072  INFO 50241 --- [main] KMSLogger                                : - CHF 50
+2022-02-11 13:52:07.076  INFO 50241 --- [main] KMSLogger                                : 10 5
+2022-02-11 13:52:07.077  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.080  INFO 50241 --- [main] KMSLogger                                : - FFG 500
+2022-02-11 13:52:07.090  INFO 50241 --- [main] KMSLogger                                : 100 5
+2022-02-11 13:52:07.090  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.124  INFO 50241 --- [main] KMSLogger                                : + asds 5 2
+2022-02-11 13:52:07.125  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:07.125  INFO 50241 --- [main] KMSLogger                                : + USSs 50 13
+2022-02-11 13:52:07.125  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:07.131  INFO 50241 --- [main] KMSLogger                                : + CHG 500 7
+2022-02-11 13:52:07.132  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.132  INFO 50241 --- [main] KMSLogger                                : + cHG 5000 2
+2022-02-11 13:52:07.132  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:07.145  INFO 50241 --- [main] KMSLogger                                : + CHG 1 2
+2022-02-11 13:52:07.145  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.151  INFO 50241 --- [main] KMSLogger                                : + USS 10 4
+2022-02-11 13:52:07.151  INFO 50241 --- [main] KMSLogger                                : OK
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : USD 1 1 
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : USD 1000 2 
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : USD 50 12 
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : USD 500 6 
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : FFG 100 1 
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : CHG 1 2 
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : CHG 500 7 
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : USS 10 4 
+2022-02-11 13:52:07.155  INFO 50241 --- [main] KMSLogger                                : OK 
+2022-02-11 13:52:07.156  INFO 50241 --- [main] KMSLogger                                : - CHG 30500
+2022-02-11 13:52:07.158  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:07.160  INFO 50241 --- [main] KMSLogger                                : - USD 30550
+2022-02-11 13:52:07.160  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:07.160  INFO 50241 --- [main] KMSLogger                                : + ASDD 100 6
+2022-02-11 13:52:07.160  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:07.160  INFO 50241 --- [main] KMSLogger                                : + fSs 1000 2
+2022-02-11 13:52:07.160  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:07.161  INFO 50241 --- [main] KMSLogger                                : USD 1 1 
+2022-02-11 13:52:07.162  INFO 50241 --- [main] KMSLogger                                : USD 1000 2 
+2022-02-11 13:52:07.162  INFO 50241 --- [main] KMSLogger                                : USD 50 12 
+2022-02-11 13:52:07.162  INFO 50241 --- [main] KMSLogger                                : USD 500 6 
+2022-02-11 13:52:07.162  INFO 50241 --- [main] KMSLogger                                : FFG 100 1 
+2022-02-11 13:52:07.162  INFO 50241 --- [main] KMSLogger                                : CHG 1 2 
+2022-02-11 13:52:07.162  INFO 50241 --- [main] KMSLogger                                : CHG 500 7 
+2022-02-11 13:52:07.162  INFO 50241 --- [main] KMSLogger                                : USS 10 4 
+2022-02-11 13:52:07.162  INFO 50241 --- [main] KMSLogger                                : OK 
+2022-02-11 13:52:07.168  INFO 50241 --- [main] KMSLogger                                : - USD 10551
+2022-02-11 13:52:07.169  INFO 50241 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:52:07.193  INFO 50241 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 13:52:07.200  INFO 50241 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-02-11 13:52:07.207  WARN 50241 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-02-11 13:52:07.208 ERROR 50241 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-11 13:52:07.209  WARN 50241 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-02-11 13:52:07.209 ERROR 50241 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-11 13:52:07.210  WARN 50241 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-02-11 13:52:07.210  INFO 50241 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-11 13:52:07.217  INFO 50241 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-11 13:54:01.229  INFO 50324 --- [main] com.kms.KMSTest                          : Starting KMSTest using Java 11.0.11 on Idans-MacBook-Pro.local with PID 50324 (started by idanazulay in /Users/idanazulay/Downloads/KMSTask-main/workspace-spring-tool-suite-4-4.13.0.RELEASE/KMS)
+2022-02-11 13:54:01.230  INFO 50324 --- [main] com.kms.KMSTest                          : No active profile set, falling back to default profiles: default
+2022-02-11 13:54:02.485  INFO 50324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-11 13:54:02.653  INFO 50324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interfaces.
+2022-02-11 13:54:03.547  INFO 50324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-11 13:54:03.748  INFO 50324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-11 13:54:03.885  INFO 50324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 13:54:03.941  INFO 50324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 13:54:04.116  INFO 50324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 13:54:04.231  INFO 50324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-11 13:54:04.857  INFO 50324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 13:54:04.863  INFO 50324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 13:54:05.901  WARN 50324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-11 13:54:06.772  INFO 50324 --- [main] com.kms.KMSTest                          : Started KMSTest in 6.328 seconds (JVM running for 9.195)
+2022-02-11 13:54:06.951  INFO 50324 --- [main] KMSLogger                                : + USs 1000 2
+2022-02-11 13:54:06.952  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:06.952  INFO 50324 --- [main] KMSLogger                                : + dSS 1000 2
+2022-02-11 13:54:06.952  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:06.952  INFO 50324 --- [main] KMSLogger                                : + sdA 1000 2
+2022-02-11 13:54:06.952  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:06.952  INFO 50324 --- [main] KMSLogger                                : + asd 1000 2
+2022-02-11 13:54:06.952  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:06.953  INFO 50324 --- [main] KMSLogger                                : + USDS 5 2
+2022-02-11 13:54:06.953  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.221  INFO 50324 --- [main] KMSLogger                                : + USD 50 13
+2022-02-11 13:54:07.222  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.278  INFO 50324 --- [main] KMSLogger                                : + USD 500 7
+2022-02-11 13:54:07.278  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.285  INFO 50324 --- [main] KMSLogger                                : + USD 5000 2
+2022-02-11 13:54:07.285  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.293  INFO 50324 --- [main] KMSLogger                                : + USD 1 2
+2022-02-11 13:54:07.293  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.306  INFO 50324 --- [main] KMSLogger                                : + CHF 10 5
+2022-02-11 13:54:07.309  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.313  INFO 50324 --- [main] KMSLogger                                : + FFG 100 6
+2022-02-11 13:54:07.313  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.319  INFO 50324 --- [main] KMSLogger                                : + USD 1000 2
+2022-02-11 13:54:07.320  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.335  INFO 50324 --- [main] KMSLogger                                : USD 1 2 
+2022-02-11 13:54:07.336  INFO 50324 --- [main] KMSLogger                                : USD 1000 2 
+2022-02-11 13:54:07.336  INFO 50324 --- [main] KMSLogger                                : USD 50 13 
+2022-02-11 13:54:07.336  INFO 50324 --- [main] KMSLogger                                : USD 500 7 
+2022-02-11 13:54:07.336  INFO 50324 --- [main] KMSLogger                                : USD 5000 2 
+2022-02-11 13:54:07.336  INFO 50324 --- [main] KMSLogger                                : CHF 10 5 
+2022-02-11 13:54:07.336  INFO 50324 --- [main] KMSLogger                                : FFG 100 6 
+2022-02-11 13:54:07.336  INFO 50324 --- [main] KMSLogger                                : OK 
+2022-02-11 13:54:07.339  INFO 50324 --- [main] KMSLogger                                : - USD 10551
+2022-02-11 13:54:07.344  INFO 50324 --- [main] KMSLogger                                : 5000 2
+2022-02-11 13:54:07.350  INFO 50324 --- [main] KMSLogger                                : 500 1
+2022-02-11 13:54:07.353  INFO 50324 --- [main] KMSLogger                                : 50 1
+2022-02-11 13:54:07.358  INFO 50324 --- [main] KMSLogger                                : 1 1
+2022-02-11 13:54:07.358  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.359  INFO 50324 --- [main] KMSLogger                                : - CHF 50
+2022-02-11 13:54:07.363  INFO 50324 --- [main] KMSLogger                                : 10 5
+2022-02-11 13:54:07.363  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.365  INFO 50324 --- [main] KMSLogger                                : - FFG 500
+2022-02-11 13:54:07.373  INFO 50324 --- [main] KMSLogger                                : 100 5
+2022-02-11 13:54:07.374  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.406  INFO 50324 --- [main] KMSLogger                                : + asds 5 2
+2022-02-11 13:54:07.407  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.407  INFO 50324 --- [main] KMSLogger                                : + USSs 50 13
+2022-02-11 13:54:07.407  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.411  INFO 50324 --- [main] KMSLogger                                : + CHG 500 7
+2022-02-11 13:54:07.411  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.411  INFO 50324 --- [main] KMSLogger                                : + cHG 5000 2
+2022-02-11 13:54:07.411  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.417  INFO 50324 --- [main] KMSLogger                                : + CHG 1 2
+2022-02-11 13:54:07.418  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.421  INFO 50324 --- [main] KMSLogger                                : + USS 10 4
+2022-02-11 13:54:07.422  INFO 50324 --- [main] KMSLogger                                : OK
+2022-02-11 13:54:07.423  INFO 50324 --- [main] KMSLogger                                : USD 1 1 
+2022-02-11 13:54:07.424  INFO 50324 --- [main] KMSLogger                                : USD 1000 2 
+2022-02-11 13:54:07.424  INFO 50324 --- [main] KMSLogger                                : USD 50 12 
+2022-02-11 13:54:07.424  INFO 50324 --- [main] KMSLogger                                : USD 500 6 
+2022-02-11 13:54:07.424  INFO 50324 --- [main] KMSLogger                                : FFG 100 1 
+2022-02-11 13:54:07.424  INFO 50324 --- [main] KMSLogger                                : CHG 1 2 
+2022-02-11 13:54:07.424  INFO 50324 --- [main] KMSLogger                                : CHG 500 7 
+2022-02-11 13:54:07.424  INFO 50324 --- [main] KMSLogger                                : USS 10 4 
+2022-02-11 13:54:07.424  INFO 50324 --- [main] KMSLogger                                : OK 
+2022-02-11 13:54:07.425  INFO 50324 --- [main] KMSLogger                                : - CHG 30500
+2022-02-11 13:54:07.426  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.428  INFO 50324 --- [main] KMSLogger                                : - USD 30550
+2022-02-11 13:54:07.428  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.428  INFO 50324 --- [main] KMSLogger                                : + ASDD 100 6
+2022-02-11 13:54:07.428  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.428  INFO 50324 --- [main] KMSLogger                                : + fSs 1000 2
+2022-02-11 13:54:07.428  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : USD 1 1 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : USD 1000 2 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : USD 50 12 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : USD 500 6 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : FFG 100 1 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : CHG 1 2 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : CHG 500 7 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : USS 10 4 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : OK 
+2022-02-11 13:54:07.429  INFO 50324 --- [main] KMSLogger                                : - USD 10551
+2022-02-11 13:54:07.430  INFO 50324 --- [main] KMSLogger                                : ERROR
+2022-02-11 13:54:07.457  INFO 50324 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 13:54:07.465  INFO 50324 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-02-11 13:54:07.470  WARN 50324 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-02-11 13:54:07.471 ERROR 50324 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-11 13:54:07.472  WARN 50324 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-02-11 13:54:07.472 ERROR 50324 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-11 13:54:07.473  WARN 50324 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-02-11 13:54:07.474  INFO 50324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-11 13:54:07.481  INFO 50324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
